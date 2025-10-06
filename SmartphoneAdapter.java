@@ -1,3 +1,4 @@
+// SmartphoneAdapter.java
 public class SmartphoneAdapter implements PowerOutlet {
     private final SmartphoneCharger smartphoneCharger;
     
@@ -7,6 +8,6 @@ public class SmartphoneAdapter implements PowerOutlet {
     
     @Override
     public void plugIn() {
-        smartphoneCharger.chargePhone();  // This should call chargePhone()
+        smartphoneCharger.chargePhone();
     }
 }

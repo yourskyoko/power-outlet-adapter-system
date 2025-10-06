@@ -1,5 +1,6 @@
+// RefrigeratorAdapter.java
 public class RefrigeratorAdapter implements PowerOutlet {
-    private final Refrigerator refrigerator;  // Made final
+    private final Refrigerator refrigerator;
     
     public RefrigeratorAdapter(Refrigerator refrigerator) {
         this.refrigerator = refrigerator;

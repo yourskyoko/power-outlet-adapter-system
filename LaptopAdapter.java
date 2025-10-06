@@ -1,5 +1,6 @@
+// LaptopAdapter.java
 public class LaptopAdapter implements PowerOutlet {
-    private final Laptop laptop;  // Made final
+    private final Laptop laptop;
     
     public LaptopAdapter(Laptop laptop) {
         this.laptop = laptop;
