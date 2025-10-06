@@ -1,0 +1,1 @@
+# power-outlet-adapter-system
